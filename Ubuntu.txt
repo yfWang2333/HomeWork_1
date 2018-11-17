@@ -1,0 +1,22 @@
+1，dpkg 安装deb文件
+2，cd 打开目录命令
+3，ls 列出文件的列表
+4，ls -F 在可执行文件后面加×，目录后面加/，链接后面加@
+5，ls -l 显示文件的属性详细信息
+6，who 当前服务器有哪些用户登录
+7，whoami 查看当前登录用户
+8，uname -a 系统所有的有用信息，如Linux myUbuntu 4.15.0-34-generic #37-Ubuntu SMP Mon Aug 27 15:21:48 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux
+9，mkdir 创建目录
+10，mkdir -p 没有该目录则创建该目录
+11，chmod u+x 改变文件权限命令，文件属主（u）,文件属组（g）,其他人（o）和所有人（a）,而权限包含读（r）,写（w）,执行（x）
+12，sudo apt-get update      更新所有软件包
+13，apt-get update - 取回更新的软件包列表信息
+  upgrade - 进行一次升级
+  install - 安装新的软件包(注：软件包名称是 libc6 而非 libc6.deb)
+  remove - 卸载软件包
+ clean - 删除所有已下载的包文件
+  autoclean - 删除已下载的旧包文件
+  check - 核对以确认系统的依赖关系的完整性
+  source - 下载源码包文件
+  download - 下载指定的二进制包到当前目录
+
